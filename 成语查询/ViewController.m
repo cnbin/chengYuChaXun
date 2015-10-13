@@ -30,9 +30,9 @@
     [button1 setTitleColor:[UIColor colorWithWhite:1 alpha:1.0] forState:UIControlStateSelected];
     [button1 setTitleColor:[UIColor colorWithWhite:1 alpha:1.0] forState:UIControlStateHighlighted];
     
-    [button1 setTitle:NSLocalizedString(@"查询", nil) forState:UIControlStateNormal];
-    [button1 setTitle:NSLocalizedString(@"查询", nil) forState:UIControlStateSelected];
-    [button1 setTitle:NSLocalizedString(@"查询", nil) forState:UIControlStateHighlighted];
+    [button1 setTitle:@"查询" forState:UIControlStateNormal];
+    [button1 setTitle:@"查询" forState:UIControlStateSelected];
+    [button1 setTitle:@"查询" forState:UIControlStateHighlighted];
     
     [button1 addTarget:self action:@selector(tapOnButton) forControlEvents:UIControlEventTouchUpInside];
     
@@ -50,8 +50,7 @@
     [GlobalResource sharedInstance].pronounceArray = [[NSMutableArray alloc]init];
 }
 
-
-- (void)request: (NSString*)httpUrl withHttpArg: (NSString*)HttpArg  {
+- (void)request:(NSString*)httpUrl withHttpArg:(NSString*)HttpArg  {
     
     self.receiveData =nil;
     NSString *urlStr = [[NSString alloc]initWithFormat: @"%@?%@", httpUrl, HttpArg];
@@ -68,13 +67,13 @@
 }
 
 #pragma mark 接受到响应
-- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+- (void)connection: (NSURLConnection *)connection didReceiveResponse: (NSURLResponse *)response {
     if (!self.receiveData) {
         self.receiveData = [NSMutableData data];
     }
 }
 
-- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+- (void)connection: (NSURLConnection *)connection didReceiveData: (NSData *)data {
 
     [self.receiveData appendData:data];
 }

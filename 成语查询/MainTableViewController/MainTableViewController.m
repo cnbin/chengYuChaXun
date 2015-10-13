@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title =@"成语";
 }
 
 - (void)didReceiveMemoryWarning {

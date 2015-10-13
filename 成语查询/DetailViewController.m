@@ -20,7 +20,7 @@
     self.title =@"成语解释";
     self.view.backgroundColor = [UIColor whiteColor];
 
-    _textView = [[UITextView alloc]initWithFrame:CGRectMake(20,80,320,60)];
+    _textView = [[UITextView alloc]initWithFrame:CGRectMake(20,80,self.view.frame.size.width-40,60)];
     _textView.layer.borderColor = [UIColor grayColor].CGColor;
     _textView.layer.borderWidth =1.0;
     _textView.layer.cornerRadius =5.0;

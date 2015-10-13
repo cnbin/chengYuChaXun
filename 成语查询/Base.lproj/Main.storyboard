@@ -22,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="102" y="99" width="180" height="30"/>
+                                    <rect key="frame" x="59" y="100" width="207" height="30"/>
                                 </variation>
                             </textField>
                         </subviews>
