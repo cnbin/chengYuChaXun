@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"成语查询";
+    self.title = @"成语大全";
     self.view.backgroundColor = [UIColor colorWithRed:0.29 green:0.59 blue:0.81 alpha:1];
     button1 = [[DKCircleButton alloc] initWithFrame:CGRectMake(0, 0, 80, 80)];
     

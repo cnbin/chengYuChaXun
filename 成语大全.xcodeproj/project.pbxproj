@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18405D791BCCD0C600044B5D /* 成语查询.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "成语查询.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18405D791BCCD0C600044B5D /* 成语大全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "成语大全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18405D7D1BCCD0C600044B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18405D7F1BCCD0C600044B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18405D801BCCD0C600044B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		18405D7A1BCCD0C600044B5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18405D791BCCD0C600044B5D /* 成语查询.app */,
+				18405D791BCCD0C600044B5D /* 成语大全.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18405D781BCCD0C600044B5D /* 成语查询 */ = {
+		18405D781BCCD0C600044B5D /* 成语大全 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18405D901BCCD0C600044B5D /* Build configuration list for PBXNativeTarget "成语查询" */;
+			buildConfigurationList = 18405D901BCCD0C600044B5D /* Build configuration list for PBXNativeTarget "成语大全" */;
 			buildPhases = (
 				18405D751BCCD0C600044B5D /* Sources */,
 				18405D761BCCD0C600044B5D /* Frameworks */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = "成语查询";
+			name = "成语大全";
 			productName = "成语查询";
-			productReference = 18405D791BCCD0C600044B5D /* 成语查询.app */;
+			productReference = 18405D791BCCD0C600044B5D /* 成语大全.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18405D741BCCD0C600044B5D /* Build configuration list for PBXProject "成语查询" */;
+			buildConfigurationList = 18405D741BCCD0C600044B5D /* Build configuration list for PBXProject "成语大全" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -162,7 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18405D781BCCD0C600044B5D /* 成语查询 */,
+				18405D781BCCD0C600044B5D /* 成语大全 */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.huaxun.chengyu.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "成语大全";
 				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 			};
 			name = Debug;
@@ -330,7 +330,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.huaxun.chengyu.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "成语大全";
 				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 			};
 			name = Release;
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18405D741BCCD0C600044B5D /* Build configuration list for PBXProject "成语查询" */ = {
+		18405D741BCCD0C600044B5D /* Build configuration list for PBXProject "成语大全" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18405D8E1BCCD0C600044B5D /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18405D901BCCD0C600044B5D /* Build configuration list for PBXNativeTarget "成语查询" */ = {
+		18405D901BCCD0C600044B5D /* Build configuration list for PBXNativeTarget "成语大全" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18405D911BCCD0C600044B5D /* Debug */,

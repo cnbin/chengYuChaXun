@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title =@"成语解释";
+    self.title = [[GlobalResource sharedInstance].array objectAtIndex:[GlobalResource sharedInstance].detailRow];
     self.view.backgroundColor = [UIColor whiteColor];
 
     _textView = [[UITextView alloc]initWithFrame:CGRectMake(20,80,self.view.frame.size.width-40,60)];
